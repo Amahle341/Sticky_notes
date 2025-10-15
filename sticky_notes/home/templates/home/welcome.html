@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+   <div class="row">
+    <div class="col">
+        <div class="home-holder text-center">
+            <h1 class="fs-3">NOTE WORD</h1>
+            <p>Welcome to the notes homepage</p>
+            <a href="{% url "notes.list" %}" class="btn btn-success btn-sm">Go to smart Notes<a/>
+        </div>
+    </div>
+   </div>
+
+
+{% endblock  %}
+   
